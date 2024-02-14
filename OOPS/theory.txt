@@ -1,0 +1,111 @@
+oops : object oriented programmming system
+
+1) class : class is a collection of data member and member functions
+          class is a datatype
+
+2) object : object is an instance or variable of class
+
+note: class always declare with class keyword.
+
+syntax:
+
+class <classname>:
+     body of class
+
+---------------------------
+
+3) Encapsulation -: a class which wrap different data member and member functionin in a single
+               entity.
+
+     variables = state   // initial state
+     methods = behaviour  // change color
+
+     getter and setter -:   
+
+     setter - it set something
+     getter - it get something   
+
+
+     security = constraints
+
+     there are 3 access specifiers:
+
+     public : which can access by own class and outside the class
+     private : which is access by own class it is represents by __varname. 
+     protected : which can access by own class and child class.. it is represents by
+                  (_varname).  
+
+
+-------------------------------------------------------
+
+4) Inheritance -: One class derived properties to another class.
+
+     using of Inheritance we can reduce our code which is provide reusability
+
+     using of Inheritance we can save our time
+
+     there are 5 types of Inheritance:
+
+     1) single-level 
+     2) multi-level
+     3) multiple Inheritance
+     4) hierarchical Inheritance
+     5) hybrid Inheritance
+  
+   Hybrid Inheritance:
+           
+            combination of multiple and hierarchical Inheritance
+
+                              A
+                              |
+                    --------------------
+                    |                  |
+                    B                  C 
+                    |                  |
+                    --------------------
+                             |
+                             D     
+
+
+5) Polymorphism: poly means many morphism means forms 
+
+               one named has different different forms its called as Polymorphism..
+
+               Polymorphism which is derived from greek word 
+
+               one named method has different form its called Polymorphism...
+               e.g.-:
+                      women has different types of roles-:
+                            - wife
+                            - sister
+                            - mother
+                            - employee
+
+     It contain 2 methods:
+     1) method overloading (compile time Polymorphism)
+     2) method overriding (run time Polymorphism)                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
